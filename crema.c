@@ -2,21 +2,19 @@
 
 int main()
 {
-    int francesca;
-    int eleonora;
-    int andrea;
-    int flavio;
-    printf("inserisci l'età di Francesca.\n"); 
-    scanf("%d", &francesca);
-    printf("inserisci l'età di Eleonora\n");
-    scanf("%d", &eleonora);
-    printf("inserisci l'età di Andrea\n");
-    scanf("%d", &andrea);
-    printf("inserisci l'età di Flavio\n");
-    scanf("%d", &flavio);
-    int x = francesca + eleonora + andrea + flavio;
-    printf("la somma delle età è %d\n", x );
+    int n;
+    printf("Scrivi un numero:\n");
+    scanf("%d", &n);
+    printf("scrivi un altro numero:\n");
+    scanf("%d", &n1);
+    if(n>n1)
+    {
+        printf("il primo numero da te inserito è maggiore del secondo!\n");
+    }
     
-    
+    else
+    {
+        printf("il secondo numero da te inserito è maggiore del primo!\n");
+    }
     return(0);
 }
