@@ -13,7 +13,7 @@ int main()
     }
     if(1969>anno)
     {
-        printf("wow sei nato %d anni prima del primo allunaggio!\n", prima);
+        printf("Wow sei nato %d anni prima del primo allunaggio!\n", prima);
     }
     if(1969==anno)
     {
