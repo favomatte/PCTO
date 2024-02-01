@@ -1,0 +1,6 @@
+array =vettore/matrice
+La stringa di caratteri è un array di caratteri, termina con \0.
+l array consente di definire nuovi tipi di dati a partire da tipi preesistenti, attraverso l aggregazione di diversi oggetti tutti di uno stesso tipo.
+c h a r   n [5] = {'c', 'a', 's', 'a', '\0' } (esempio).
+ARRAY è UN NOME DI UNA VARIABLI, PUò AVERE QUALSIASI NOME!!!
+ 
